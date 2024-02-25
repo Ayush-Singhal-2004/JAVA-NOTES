@@ -26,3 +26,9 @@
 1. Java Standard Edition -> Java SE or J2SE
 2. Java Enterprise Edition -> Java EE or J2EE
 3. Java Micro Edition -> Java ME or J2ME
+
+
+#Keypoints of JAVA :
+1. Java has 50 keywords.
+2. In addition java reserves - true, false, null.
+3. Java has a extra reserved word 'goto', but we cannot use it in java.
