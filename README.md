@@ -53,7 +53,15 @@
 #Operators in JAVA :
 1. Arithmetic operators : +, -, *, /, %, ++, --
 2. Assignment operators : =, +=, -=, *=, /=, *=, %=
-3. Comparison operators : ==, !=, >, <, >=, <=
+3. Relational/Comparison operators : ==, !=, >, <, >=, <=
 4. Logical operators : &&, ||, !
 5. Bitwise operators : |, &, ^, ~
 
+#Operator Precedence in JAVA :
+1. Parenthesis
+2. Postfix
+3. Prefix
+4. Multiplicative
+5. Additive
+6. Relational
+7. Logical
