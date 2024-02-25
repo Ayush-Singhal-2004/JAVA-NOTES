@@ -47,3 +47,5 @@
 6. double : 8 bytes
 7. boolean : memory -> 1 bit, possible values are 'true' or 'false'
 8. char : memory -> 2 bytes
+
+- No unsigned types in java. All number are signed.
