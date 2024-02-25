@@ -81,7 +81,11 @@
 - In java, two major scopes are those which are defined by a 'class', 'method', 'loops', 'if - else'.
 
 #Loops in JAVA :
-- for
-- while
-- do - while
-- Enhanced for / for-each
+1. for
+2. while
+3. do - while
+4. Enhanced for / for-each
+
+#Arrays in JAVA :
+1. Single dimensional array
+2. Multidimensional array (rectangular multidimensional array and Jagged multidimensional array)
