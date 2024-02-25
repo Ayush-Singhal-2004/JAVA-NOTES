@@ -2,9 +2,7 @@
 1. Development of Java language was started in 1991, by a U.S. company Sun MicroSystems.
 2. Java is developed by James Gosling.
 3. Its first version was released in 1996.
-
-
-
+4. Initially java language was names 'Oak', then after it renamed to Java(Java Coffee).
 
 #Features of JAVA :
 1. High level language
@@ -24,3 +22,7 @@
 - End user need libraries & JVM from executing application.
 - Java can be considered both a compiled and an interpreted language because its source code is first compiled into a binary byte-code. This byte-code runs on the Java Virtual Machine (JVM), which is usually a software-based interpreter.
 
+#Editions of Java software :
+1. Java Standard Edition -> Java SE or J2SE
+2. Java Enterprise Edition -> Java EE or J2EE
+3. Java Micro Edition -> Java ME or J2ME
