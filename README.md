@@ -9,8 +9,11 @@
 3. Portable programs
 4. Class based
 5. Java uses the concept of 'Write Once Run Anywhere' (because of Bytecodes)
+6. Platform Independent
 
 #Extension of file
 - Source code : file_name.java
-- Compile using 'javac', it checks syntax and libraries.
-- Bytecodes : file_name.class.
+- Compile using 'javac', it checks syntax and libraries
+- Bytecodes : file_name.class
+
+*Bytecodes are archetecture neutral - not in 0's and 1's.
