@@ -27,7 +27,6 @@
 2. Java Enterprise Edition -> Java EE or J2EE
 3. Java Micro Edition -> Java ME or J2ME
 
-
 #Keypoints of JAVA :
 1. Java has 50 keywords.
 2. In addition java reserves - true, false, null.
@@ -39,5 +38,12 @@
 2. \t - tab
 3. \b - backspace
 
-#Datatypes in JAVA :
-1.
+#Datatypes in JAVA(8 primitive datatypes):
+1. byte : range -> -128 to +127, memory -> 1 byte
+2. short : range -> -32768 to +36767, memory -> 2 bytes
+3. int : range -> -2147483648 to +2147483647, memory => 4 bytes
+4. long : 8 bytes
+5. float : 4 bytes
+6. double : 8 bytes
+7. boolean : memory -> 1 bit, possible values are 'true' or 'false'
+8. char : memory -> 2 bytes
