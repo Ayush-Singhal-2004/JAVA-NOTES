@@ -79,3 +79,9 @@
 - Each time we create a new block, we are actually defining a new scope.
 - A scope defines the visibility of any variable or object.
 - In java, two major scopes are those which are defined by a 'class', 'method', 'loops', 'if - else'.
+
+#Loops in JAVA :
+- for
+- while
+- do - while
+- Enhanced for / for-each
