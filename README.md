@@ -8,3 +8,9 @@
 2. Object Oriented Language
 3. Portable programs
 4. Class based
+5. Java uses the concept of 'Write Once Run Anywhere' (because of Bytecodes)
+
+#Extension of file
+- Source code : file_name.java
+- Compile using 'javac', it checks syntax and libraries.
+- Bytecodes : file_name.class.
