@@ -74,4 +74,9 @@
 5. switch case
 6. jump statements - break, continue, return
 
-   
+#Scope & Lifetime of variable in JAVA :
+- Java allows variables to be declared within any block. A block defines a scope.
+- Each time we create a new block, we are actually defining a new scope.
+- A scope defines the visibility of any variable or object.
+- In java, two major scopes are those which are defined by a 'class', 'method', 'loops', 'if's'.
+-   
