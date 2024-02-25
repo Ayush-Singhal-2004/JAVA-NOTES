@@ -33,3 +33,11 @@
 2. In addition java reserves - true, false, null.
 3. Java has a extra reserved word 'goto', but we cannot use it in java.
 4. Java uses 'Unicode', which includes ASCII and other characters from languages around the world.
+
+#Escape Sequences in JAVA :
+1. \n - new line
+2. \t - tab
+3. \b - backspace
+
+#Datatypes in JAVA :
+1.
