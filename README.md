@@ -89,3 +89,5 @@
 #Arrays in JAVA :
 1. Single dimensional array
 2. Multidimensional array (rectangular multidimensional array and Jagged multidimensional array)
+
+- Every element id distinguished by a unique unsigned integer value starting from 0 also called 'subscript number'. 
