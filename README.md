@@ -49,3 +49,7 @@
 8. char : memory -> 2 bytes
 
 - No unsigned types in java. All number are signed.
+
+#Operators in JAVA :
+1. Arithmetic operators : +, -, *, /, %, ++, --
+2. Assignment operators : 
