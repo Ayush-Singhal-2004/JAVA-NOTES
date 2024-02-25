@@ -65,3 +65,13 @@
 5. Additive
 6. Relational
 7. Logical
+
+#Program Control Statements in JAVA :
+1. if
+2. if-else
+3. nested if
+4. if-else-if
+5. switch case
+6. jump statements - break, continue, return
+
+   
