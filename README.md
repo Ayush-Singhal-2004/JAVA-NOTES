@@ -10,6 +10,7 @@
 4. Class based
 5. Java uses the concept of 'Write Once Run Anywhere' (because of Bytecodes)
 6. Platform Independent
+7. We can handle multiple programs in Java (Multi-Threading)
 
 #Extension of file
 - Source code : file_name.java
