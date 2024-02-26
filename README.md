@@ -237,3 +237,5 @@
 4. A class can have multiple parent interfaces.
 5. We can't create object of an interface, as interface provides the concept of full abstraction.
 6. The interface body can contain abstract methods, default methods, and static methods. 
+
+- Abstract class can have abstract and non-abstract methods. Interface can have only abstract methods.
