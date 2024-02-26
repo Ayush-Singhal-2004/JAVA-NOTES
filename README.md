@@ -236,6 +236,18 @@
 3. We can derive a class from an interface by using 'implements' keyword.
 4. A class can have multiple parent interfaces.
 5. We can't create object of an interface, as interface provides the concept of full abstraction.
-6. The interface body can contain abstract methods, default methods, and static methods. 
+6. The interface body can contain abstract methods, default methods, and static methods.
+7. Variables declared in an interface are constants.
 
+- Examples of predefined interfaces are - ActionListeners, MouseListeners, KeyListeners. 
 - Abstract class can have abstract and non-abstract methods. Interface can have only abstract methods.
+
+#Packages in JAVA :
+1. Java allows you to group classes in a collection called a Package.
+2. Packages are convenient for organizing your work and for separating your work from code libraries provided by others.
+- Examples of packages are - java.lang, java.util, javax.swing
+
+#Defining a package in JAVA :
+1. To place classes inside a package, you must put the name of the package at the top of your source file, before the code defines the classes in the package.
+2. If you don't put a package statement in the source file, then the classes in that source file belong to the default package. The default package has no package name.
+3. The general form of package statement is - package paackage_name; 
