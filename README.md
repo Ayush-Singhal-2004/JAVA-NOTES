@@ -186,3 +186,12 @@
 - We can create a static initialization block, these can be used to declare static variables.
 
 - The main() method is marked static so that the JVM may call it without having to create an instance of the class that contains the main() function.
+
+#Inheritance in JAVA :
+1. It is a technique of organizing information in hierarchial form. It is like child inheriting the features of its parent.
+2. Parent class is also called base class or super class.
+3. Child class is also called derived class or sub class.
+4. We can use 'extends' keyword to inherit the features of a class in another class.
+5. No memory is allocated to the derived classes, but memory is allocated when it is instantiated to create object.
+6. Java does not support inheriting multiple parent classes to a single class.
+7. Although a sub class includes all the members of its parent class, but it cannot access the 'private' members.
