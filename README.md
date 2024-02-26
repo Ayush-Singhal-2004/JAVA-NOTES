@@ -175,5 +175,11 @@
 3. When a member is declared static, it can be accessed without referencing to an object.
 4. Both variables and methods can be static.
 5. The most common example of static member is 'main()'.
+6. Static variables are declared as private. Thus, data hiding is achieved, as data is only accessed to the member functions.
+7. Private static data members are not accessible outside the class.
+8. The 'static' variables which are declared as 'public' are like global variables.
+
+- Storage space for data members which are declared as static is allocated only once during the class declaration. All objects that this class have access to static data members.
+- When one of the object modifies the static data member, the effect is visible to all the instances of that class.
 
 - The main() method is marked static so that the JVM may call it without having to create an instance of the class that contains the main() function.
