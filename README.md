@@ -116,7 +116,7 @@
 - q[1] = new int[2];
 - q[2] = new int[5];
 
-- Alternate ways for declaring an array variable in JAVA :
+#Alternate ways for declaring an array variable in JAVA :
 1. int a[];
 2. int [] a;
 3. int a[], e; //a will be 1D array & e will be a variable
