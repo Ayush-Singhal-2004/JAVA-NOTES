@@ -299,3 +299,7 @@
 1. A thread is a single flow of control within a program. It is sometimes called the 'Execution Context' because each thread must have its own resources - like the program counter and the execution stack - as the context for execution.
 2. All threads in a program still share many resources, such as memory space and opened files. Therefore, a thread may also be called a lightweight process.
 3. Multithreading in Java is an act of executing a complex process using virtual processing entities independent of each other. These entities are called threads. Threads in Java are virtual and share the same memory location of the process. As the threads are virtual, they exhibit a safer way of executing a process.
+4. Multithreading enables us to run multiple threads concurrently.
+5. There are two types of threads in Java :
+- User thread: The user threads are created by the users to carry out specific tasks in Java.
+- Daemon thread: The daemon threads run in the background, which runs in the background to perform essential tasks such as garbage collection, etc.
