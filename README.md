@@ -278,3 +278,23 @@
 8. Any code that absolutely must be executed before the method returns is put in a 'finally' block.
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20230613122108/Exception-Handling-768.png)
+
+#Creating Exception classes in JAVA :
+1. To create your own exception class, define a subclass of Exception class.
+2. Exception class inherits the methods provided by the Throwable.
+3. Following are created in your own exception class :
+- Default constructor
+- Parameterized constrcutor with detailed message as argument
+- getMessage() method for returning message
+4. Built-in exceptions are :
+- ClassNotFoundException
+- ArthemeticException
+- ArrayIndexOutOfBoundsException
+- NegativeArraySizeException
+- NullPointerException
+- NumberFormatException
+- StringIndexOutOfBoundsException
+
+#Multithreading in JAVA :
+1. A thread is a single flow of control within a program. It is sometimes called the 'Execution Context' because each thread must have its own resources - like the program counter and the execution stack - as the context for execution.
+2. All threads in a program still share many resources, such as memory space 
