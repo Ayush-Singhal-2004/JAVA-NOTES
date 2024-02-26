@@ -265,3 +265,14 @@
 3. 'private' features can be used only by the class that defines them.
 4. 'protected' members are visible to the package and all sub classes of that class. These subclasses can be in same or different packages.
 5. default members cannot be accessed explicitly. It means they can be access only in by the classes of same package. 
+
+
+#Exception Handling in JAVA :
+1. An exception is an abnormal condition that arises in the code sequence at runtime. In other words, an exception is a runtime error.
+2. In java exception can be managed through 5 keywords -> try, catch, finally, throw, throws.
+3. Program statements that you want to monitor for exceptions are contained in 'try' block.
+4. If an exception is occured in a 'try' block, it will be catched by the 'catch' block.
+5. System generated exceptions are automatically thrown by a Java runtime system.
+6. To manually throw an exception, use the keyword 'throw'.
+7. Any exception that is thrown out of a method is must be specified by a 'throws' keyword.
+8. Any code that absolutely must be executed before the method returns is put in a 'finally' block.
