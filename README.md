@@ -276,3 +276,5 @@
 6. To manually throw an exception, use the keyword 'throw'.
 7. Any exception that is thrown out of a method is must be specified by a 'throws' keyword.
 8. Any code that absolutely must be executed before the method returns is put in a 'finally' block.
+
+![alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230613122108/Exception-Handling-768.png)
