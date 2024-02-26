@@ -178,8 +178,11 @@
 6. Static variables are declared as private. Thus, data hiding is achieved, as data is only accessed to the member functions.
 7. Private static data members are not accessible outside the class.
 8. The 'static' variables which are declared as 'public' are like global variables.
+9. Storage space for data members which are declared as static is allocated only once during the class declaration. All objects that this class have access to static data members.
+10. When one of the object modifies the static data member, the effect is visible to all the instances of that class.
+11. The static methods can only access static data members or static methods. It means non-static data is unavailable to these methods.
+12. Static methods cannot refer to 'this' or 'super' in any way.
 
-- Storage space for data members which are declared as static is allocated only once during the class declaration. All objects that this class have access to static data members.
-- When one of the object modifies the static data member, the effect is visible to all the instances of that class.
+- We can create a static initialization block, these can be used to declare static variables.
 
 - The main() method is marked static so that the JVM may call it without having to create an instance of the class that contains the main() function.
