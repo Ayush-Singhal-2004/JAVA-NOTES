@@ -199,4 +199,10 @@
 - Single inheritance -> only one class is derived 
 - Multilevel inheritance -> derivation of a class from another derived class
 - Hierarchical inheritance -> derivation of several classes from a single base class
-9.
+9. Whenever a subclass needs to refer to its super class, it can do so by using 'super' keyword.
+10. 'super' keyword has generally two forms of use :
+- using super to call super class constructor -> super(parameter_list);
+- using super to call members of super class -> super.member;
+
+#Method Overriding in JAVA :
+
