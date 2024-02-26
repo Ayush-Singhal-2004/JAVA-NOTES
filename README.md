@@ -75,7 +75,7 @@
 6. jump statements - break, continue, return
 
 - break statement - simple and labeled
-- continue statement - simple and labled
+- continue statement - simple and labeled
 
 #Scope & Lifetime of variable in JAVA :
 - Java allows variables to be declared within any block. A block defines a scope.
@@ -93,4 +93,30 @@
 1. Single dimensional array
 2. Multidimensional array (rectangular multidimensional array and Jagged multidimensional array)
 
-- Every element id distinguished by a unique unsigned integer value starting from 0 also called 'subscript number'. 
+- Every element id distinguished by a unique unsigned integer value starting from 0 also called 'subscript number'.
+
+#Declaration & initialization of an Array in JAVA :
+- Single dimensional array 
+1. int array = new int[5];
+2. int array[]; array = new int[5];
+3. int array[] = {1, 2, 3, 4, 5};
+4. int array[] = new int[]{1, 2, 3, 4, 5};
+5. int array[]; array = new int[]{1, 2, 3, 4, 5}; //in this case 'new' keyword is required.
+
+- Max size of an array could be - 2,14,74,83,647
+
+- Multidimensional array (rectangular multidimensional array)
+1. int a[][]; a = new int[3][4];
+2. int a[][] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+3. int a[][] = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+
+- Multidimensional array (Jagged multidimensional array)
+1. int q[][] = new int[3][];
+   q[0] = new int[3];
+   q[1] = new int[2];
+   q[2] = new int[5];
+
+- Alternate ways for declaring an array variable in JAVA :
+1. int a[];
+2. int [] a;
+3. int a[], e; //a will be 1D array & e will be a variable
