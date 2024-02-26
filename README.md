@@ -120,3 +120,43 @@
 1. int a[];
 2. int [] a;
 3. int a[], e; //a will be 1D array & e will be a variable
+
+#Enum in JAVA :
+- enum Currency {RUPEES, YEN, COLON, FRANC} //values in enum should be case-sensitive & unique
+
+#Command line arguments in JAVA :
+- javac file_name.java
+- java class_name hello world //'hello world' will be passed as cmd ling arguments
+
+
+#Classes and Objects in JAVA :
+- Classes
+1. A class is a template for an object, and an object is an instance of class. //instance means occurence in memory
+2. A class defines a new datatype. Once defined, this new type can be used to create 'object' of that type.
+3. A class is defined by using 'Class' keyword.
+4. The variables defined in a class are called 'Instance variables'. The code is contained in methods. Collectively, they are called members of a class.
+5. Generally, instance variables are accessed by the member functions(methods).
+6. Variables are called instance variable because each object of that class has its own copy of that variables.
+
+- Objects
+1. Obtaining an object of a class has two processes.
+2. First, we have to declare a variable of that class type which is also called 'Reference variable'. This variable does not define an object, it simply refer or point to an object.
+3. Second, we must obtain a copy to an object and sign it to the reference variable using 'new' keyword.
+4. The 'new' keyword dynamically allocates memory to the object and returns a reference to that object.
+5. reference_variable of class type = new Class_name(); //the class_name followed by parenthesis specifies 'Constructor'.
+
+#Parts of a class in JAVA :
+1. Variables also called instance variables.
+2. Functions which are called Methods.
+3. Constructors.
+
+#Constructors in JAVA :
+- Types
+1. Non - parameterized constructor
+2. Parameterized constructor
+
+- we can access members of a class by using (.) operator.
+
+#Method overloading in JAVA :
+1. Method overloading is a concept that allows multiple methods to share the same name.
+2. But with different number of arguments, return datatype or sequence of arguments.
