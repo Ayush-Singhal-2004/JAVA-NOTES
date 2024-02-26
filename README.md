@@ -205,4 +205,6 @@
 - using super to call members of super class -> super.member;
 
 #Method Overriding in JAVA :
-
+1. In a class hierarchy, when a method in a sub class has same name and type signature as a method in its super class, then the method in the sub class is said to be overrided method.
+2. If we want to access the super class version of overrided method, we have to use 'super' keyword.
+3. Method overriding occurs only when the name and the type signatures of the two methods are identical. //type signature means - number, type, and order of parameters.
