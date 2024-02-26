@@ -195,3 +195,8 @@
 5. No memory is allocated to the derived classes, but memory is allocated when it is instantiated to create object.
 6. Java does not support inheriting multiple parent classes to a single class.
 7. Although a sub class includes all the members of its parent class, but it cannot access the 'private' members.
+8. Types of inheritance suported in java are :
+- Single inheritance -> only one class is derived 
+- Multilevel inheritance -> derivation of a class from another derived class
+- Hierarchical inheritance -> derivation of several classes from a single base class
+9.
