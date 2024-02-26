@@ -250,4 +250,7 @@
 #Defining a package in JAVA :
 1. To place classes inside a package, you must put the name of the package at the top of your source file, before the code defines the classes in the package.
 2. If you don't put a package statement in the source file, then the classes in that source file belong to the default package. The default package has no package name.
-3. The general form of package statement is - package paackage_name; 
+3. The general form of package statement is - package package_name;
+4. The general form of multileveled package statment is - package pkg1[.pkg2[.pkg3]];
+
+- CLASSPATH : It is actually an environment variable in Java, and tells Java applications and the Java Virtual Machine (JVM) where to find the libraries of classes. These include any that you have developed on your own. 
