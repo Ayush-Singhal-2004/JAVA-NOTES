@@ -74,6 +74,9 @@
 5. switch case
 6. jump statements - break, continue, return
 
+- break statement - simple and labeled
+- continue statement - simple and labled
+
 #Scope & Lifetime of variable in JAVA :
 - Java allows variables to be declared within any block. A block defines a scope.
 - Each time we create a new block, we are actually defining a new scope.
