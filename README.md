@@ -155,8 +155,11 @@
 1. Non - parameterized constructor
 2. Parameterized constructor
 
+- Constructors don't have a return datatype.
 - we can access members of a class by using (.) operator.
 
 #Method overloading in JAVA :
 1. Method overloading is a concept that allows multiple methods to share the same name.
 2. But with different number of arguments, return datatype or sequence of arguments.
+3. When an overloaded method is invoked, java uses the type and no. of arguments to determine between the versions of overloaded methods.
+- we can also overload parameterized constructors.
