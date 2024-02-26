@@ -174,3 +174,6 @@
 2. To create such a member, we have to specify 'static' keyword in its declaration.
 3. When a member is declared static, it can be accessed without referencing to an object.
 4. Both variables and methods can be static.
+5. The most common example of static member is 'main()'.
+
+- The main() method is marked static so that the JVM may call it without having to create an instance of the class that contains the main() function.
