@@ -253,4 +253,15 @@
 3. The general form of package statement is - package package_name;
 4. The general form of multileveled package statment is - package pkg1[.pkg2[.pkg3]];
 
-- CLASSPATH : It is actually an environment variable in Java, and tells Java applications and the Java Virtual Machine (JVM) where to find the libraries of classes. These include any that you have developed on your own. 
+- CLASSPATH : It is actually an environment variable in Java, and tells Java applications and the Java Virtual Machine (JVM) where to find the libraries of classes. These include any that you have developed on your own.
+
+#Access protection in JAVA :
+1. Java has 4 types of visibilties for class members
+- Sub class in the same package.
+- Non sub class in the same package.
+- Sub classes in different packages.
+- Classes that are neither in the same package nor sub class.
+2. 'public' features can be used in any class.
+3. 'private' features can be used only by the class that defines them.
+4. 'protected' members are visible to the package and all sub classes of that class. These subclasses can be in same or different packages.
+5. default members cannot be accessed explicitly. It means they can be access only in by the classes of same package. 
