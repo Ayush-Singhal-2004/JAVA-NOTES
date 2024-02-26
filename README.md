@@ -112,9 +112,9 @@
 
 - Multidimensional array (Jagged multidimensional array)
 1. int q[][] = new int[3][];
-   q[0] = new int[3];
-   q[1] = new int[2];
-   q[2] = new int[5];
+- q[0] = new int[3];
+- q[1] = new int[2];
+- q[2] = new int[5];
 
 - Alternate ways for declaring an array variable in JAVA :
 1. int a[];
