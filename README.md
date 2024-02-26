@@ -163,3 +163,14 @@
 2. But with different number of arguments, return datatype or sequence of arguments.
 3. When an overloaded method is invoked, java uses the type and no. of arguments to determine between the versions of overloaded methods.
 - we can also overload parameterized constructors.
+
+#'this' keyword in JAVA :
+1. this keyword is used inside any method to refer the current object.
+2. 'this' is always a reference to the object on which the method was invoked.
+3. When a local variable has the same name as an instance variable, the local variable hides the instance variable, we can use 'this' keyword to access that instance variable.
+
+#Static data and member function :
+1. Generally, a class member is accessed by using an object of that class, but we can access the member without creating an object.
+2. To create such a member, we have to specify 'static' keyword in its declaration.
+3. When a member is declared static, it can be accessed without referencing to an object.
+4. Both variables and methods can be static.
