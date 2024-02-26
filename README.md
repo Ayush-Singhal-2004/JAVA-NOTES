@@ -216,6 +216,6 @@
 4. If there is no matching, we'll get a complie time error.
 5. A method defined in a sub class with the same name and parameter list as a method in one of the parent classes hides the method of the parent class.
 6. The key to make polymorphism work is called 'Late binding'.
-7. Late binding means that the compiler does not generate the code to call the method at compile time. Instead, compiler generates code to calculate which method to call using type information from object. //late binding is also called dynamic binding or dynamic method dispatch.
-8. Another method call mechanism is called 'Static binding', where the operation to be executed is completely determined at compile time. //it is also called compile time binding or Early binding
+7. Late binding means that the compiler does not generate the code to call the method at compile time. Instead, compiler generates code to calculate which method to call using type information from object. //late binding is also called dynamic binding or dynamic method dispatch or runtime polymorphism.
+8. Another method call mechanism is called 'Static binding', where the operation to be executed is completely determined at compile time. //it is also called compile time binding or Early binding or compile time polymorphism.
 9. Static binding depends on the type of the object variable alone, while Dynamic binding depends on the type of the actual object at run time.  
