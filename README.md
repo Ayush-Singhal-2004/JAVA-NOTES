@@ -218,4 +218,22 @@
 6. The key to make polymorphism work is called 'Late binding'.
 7. Late binding means that the compiler does not generate the code to call the method at compile time. Instead, compiler generates code to calculate which method to call using type information from object. //late binding is also called dynamic binding or dynamic method dispatch or runtime polymorphism.
 8. Another method call mechanism is called 'Static binding', where the operation to be executed is completely determined at compile time. //it is also called compile time binding or Early binding or compile time polymorphism.
-9. Static binding depends on the type of the object variable alone, while Dynamic binding depends on the type of the actual object at run time.  
+9. Static binding depends on the type of the object variable alone, while Dynamic binding depends on the type of the actual object at run time.
+
+#Final keyword in JAVA :
+1. Using 'final' keyword to prevent inheritance by defining a final class.
+2. Using 'final' to prevent method overriding.
+3. Using 'final' to declare a constant variable.
+
+#Abstraction in JAVA :
+1. An abstract modifier indicates that the class has not been fully implemented and that it should not be instantiated.
+2. If 'abstract' keyword is applied to a member function declaration, it means that the method will be implemented in the child class.
+3. Class which contains abstract method also become abstract and not been instantaited.
+
+#Interfaces in JAVA :
+1. It is java's way of defining 'multiple inheritance'.
+2. Interface is a promise that your class will implement certain methods with certain signature.
+3. We can derive a class from an interface by using 'implements' keyword.
+4. A class can have multiple parent interfaces.
+5. We can't create object of an interface, as interface provides the concept of full abstraction.
+6. The interface body can contain abstract methods, default methods, and static methods. 
